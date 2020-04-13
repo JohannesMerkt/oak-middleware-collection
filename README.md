@@ -4,7 +4,7 @@ A collection of very basic commonly used middlewares for oak with deno.
 
 ## Included Middleware
 
-- Error: Respond with interal server error and log error to console
+- Error: Respond with interal server error and log error to console. the error middleware has an optional parameter to set the responseBody of an internal server error
 - Logger: Log server requests to console
 - Response Time: Set response time flag in response header (also used for logger middleware)
 
